@@ -11,5 +11,26 @@
 
 <body>
   <h1>Hello Ipsum!</h1>
-  <h2>Let's generate some buzz!</h2>
+
+  <section>
+    <h2> Generate your own JS gibberish</h2>
+    <form>
+      <fieldset>
+        <legend>Choose the text length:</legend>
+        <input id="short" type="radio" name="text-length" value="short">
+        <label for="short">short</label><br>
+        <input id="medium" type="radio" name="text-length" value="medium">
+        <label for="medium">medium</label><br>
+        <input id="long" type="radio" name="text-length" value="long">
+        <label for="long">long</label>
+      </fieldset>
+
+      <button type="submit">Reload</button>
+    </form>
+
+    <h2> Your generated text</h2>
+    <div role="region" aria-live="polite">
+      Generated text goes here.
+    </div>
+  </section>
 </body>
