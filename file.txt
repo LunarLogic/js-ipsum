@@ -1,0 +1,737 @@
+CoffeeScript Family (& Friends)
+
+CoffeeScript Unfancy JavaScript
+(GH-stars) (GH-forks) (GH-issues)
+CoffeeScript II: The Wrath of Khan Rewrite of the CS compiler
+(GH-stars) (GH-forks) (GH-issues)
+Family (share genes with CoffeeScript)
+
+Coco A CoffeeScript dialect that aims to be more radical and practical, also acts as a test bed for features that get imported in CoffeeScript.
+(GH-stars) (GH-forks) (GH-issues)
+LiveScript is a fork of Coco that is much more compatible with CoffeeScript, more functional, and with more features.
+(GH-stars) (GH-forks) (GH-issues)
+IcedCoffeeScript A CoffeeScript dialect that adds support for await and defer keywords which simplify async control flow.
+(GH-stars) (GH-forks) (GH-issues)
+Parsec CoffeeScript CS based on parser combinators. The project's aim is to add static metaprogramming (i.e. macros + syntax extensibility) to Coffee Script (CS), similar to how Metalua adds such features to Lua. The resulting compiler, once merged with the official compiler, should be usable as a drop-in replacement for it.
+(GH-stars) (GH-forks) (GH-issues)
+Contracts.coffee A dialect of CoffeeScript that adds built-in support for contracts.
+(GH-stars) (GH-forks) (GH-issues)
+Uberscript, a CoffeeScript fork that adds type annotations which are compiled to Google closure compiler type annotation comments.
+(GH-stars) (GH-forks) (GH-issues)
+ToffeeScript A dialect of CoffeeScript that support Asynchronous Syntax and Regexp operator =~
+(GH-stars) (GH-forks) (GH-issues)
+Caffeine A dialect of CoffeeScript that supports packages and classes import, useful for browser applications
+(GH-stars) (GH-forks) (GH-issues)
+heap.coffee A dialect of CoffeeScript that offers a C-like type system with manual memory management
+(GH-stars) (GH-forks) (GH-issues)
+EmberScript Ember.js-infused CoffeeScript.
+(GH-stars) (GH-forks) (GH-issues)
+Friends (philosophically related)
+
+Bizubee The World's Most Intense Programming Language!
+(GH-stars) (GH-forks) (GH-issues)
+Kaffeine Enhanced Syntax for JavaScript.
+(GH-stars) (GH-forks) (GH-issues)
+Jack Making programming playful.
+(GH-stars) (GH-forks) (GH-issues)
+move A simpler and cleaner programming language.
+(GH-stars) (GH-forks) (GH-issues)
+Moescript Indent-based language
+(GH-stars) (GH-forks) (GH-issues)
+pogoscript language that emphasises readability, handles async control flow nicely, is friendly to domain specific languages and compiles to regular JavaScript
+(GH-stars) (GH-forks) (GH-issues)
+LispyScript A JavaScript with Lispy syntax and Macros. ○
+(GH-stars) (GH-forks) (GH-issues)
+Hot Cocoa Lisp A Lisp-like language that compiles to JavaScript. ○
+(GH-stars) (GH-forks) (GH-issues)
+Sibilant JavaScript with a lisp. ○
+(GH-stars) (GH-forks) (GH-issues)
+ki Clojure-like syntax, mori's immutable data structures in a few sweet.js macros. Can be intermixed with JavaScript. ○
+(GH-stars) (GH-forks) (GH-issues)
+jisp A JS-native and axiomatic Lisp that focuses on the core ideas of code-as-data, S-expressions, and macros, introducing as few new concepts as possible. ○
+(GH-stars) (GH-forks) (GH-issues)
+Ham looks very similar to JavaScript at first, but offers (hopefully) many useful features
+(GH-stars) (GH-forks) (GH-issues)
+GorillaScript Compile-to-JavaScript language designed to empower the user while attempting to prevent some common errors, offers Macros and optional Typing
+(GH-stars) (GH-forks) (GH-issues)
+RedScript Ruby-flavored JavaScript.
+(GH-stars) (GH-forks) (GH-issues)
+Daonode functional logic solver, compiler.
+(GH-stars) (GH-forks) (GH-issues)
+LiteScript Literate, highly-readable, type annotated, imperative language that compiles to JavaScript.
+(GH-stars) (GH-forks) (GH-issues)
+ColaScript similar to Dart, CoffeeScript, Python and PHP
+(GH-stars) (GH-forks) (GH-issues)
+Taijilang a customizable and extensible language with dynamic parser and meta language.
+(GH-stars) (GH-forks) (GH-issues)
+MoonScript MoonScript is a dynamic scripting language that compiles into Lua. The syntax of MoonScript has been heavily inspired by the syntax of CoffeeScript.
+(GH-stars) (GH-forks) (GH-issues)
+Earl Grey An extensible language with pattern matching, hygienic macros and a syntax similar to Python.
+(GH-stars) (GH-forks) (GH-issues)
+Khepri Lightweight language that reworks Javascript's syntax to be better for untyped functional-style programming.
+(GH-stars) (GH-forks) (GH-issues)
+Spider Spider is a programming language that compiles to JavaScript (ES5 and ES6 targets). It takes the best ideas of Go, Swift, Python, C# and CoffeeScript.
+(GH-stars) (GH-forks) (GH-issues)
+CirruScript write JavaScript with indentations and polish notations, similar to S-Expression but with fewer parentheses.
+(GH-stars) (GH-forks) (GH-issues)
+TLC Tag Line Commands is a inline macro language for calling+formatting javascript/coffeescript/livescript json output into HTML.
+(GH-stars) (GH-forks) (GH-issues)
+CokeScript is inspired by Python and Ruby that integrates natively with the Virtual-DOM library
+(GH-stars) (GH-forks) (GH-issues)
+imba compiles to performant and readable JavaScript
+(GH-stars) (GH-forks) (GH-issues)
+Cor Straightforward language for the Web
+(GH-stars) (GH-forks) (GH-issues)
+Iode a language inspired by Swift
+(GH-stars) (GH-forks) (GH-issues)
+FutureScript a more radical, but more readable, different new language.
+(GH-stars) (GH-forks) (GH-issues)
+PearScript shorthanding JavaScript one more time.
+(GH-stars) (GH-forks) (GH-issues)
+JavaScript Extensions
+
+Security enforcing JavaScript
+
+Caja Compiles ES5/strict to ES3 and supports object-capabilities
+(GH-stars) (GH-forks) (GH-issues)
+ADsafe Client-side static verifier and API, making third party scripts safe.
+Jacaranda Static verifier supporting object-capabilities.
+Dojo Secure Framework for building secure mashups.
+(GH-stars) (GH-forks) (GH-issues)
+Static typing
+
+Some of the ones listed below are also statically typed, such as mobl, GWT, JSIL, NS Basic, and Haxe.
+Dart by Google. C/Java-like syntax with optional typing.
+(GH-stars) (GH-forks) (GH-issues)
+TypeScript by Microsoft. Typed superset of JavaScript.
+(GH-stars) (GH-forks) (GH-issues)
+TeJaS from Brown PLT. Types for JavaScript (itself).
+(GH-stars) (GH-forks) (GH-issues)
+asm.js – subset of JavaScript that can be used as a low-level, efficient target language for compilers. Now included in Firefox.
+(GH-stars) (GH-forks) (GH-issues)
+JavaScript++ JavaScript superset with classes, type checking, among other features
+(GH-stars) (GH-forks) (GH-issues)
+Mascara [commercial] Enhances JavaScript with powerful features like classes, namespaces and type-checking.
+Roy tries to meld JavaScript semantics with some features common in static functional languages
+(GH-stars) (GH-forks) (GH-issues)
+Elm type-safe functional language that compiles to HTML, CSS, and JavaScript.
+(GH-stars) (GH-forks) (GH-issues)
+Swym – statically typed, with type inference and generics
+(GH-stars) (GH-forks) (GH-issues)
+Typecast.js – JavaScript platform for statically typed variables without a custom compiler.
+PureScript – a small, strongly typed programming language that compiles to JavaScript and C++, featuring extensible records and effects, and type classes.
+(GH-stars) (GH-forks) (GH-issues)
+Flow by Facebook - static type checker for JavaScript, supports optional types and null checks
+(GH-stars) (GH-forks) (GH-issues)
+ActionScript with Apache FlexJS - Based on ECMAScript 4, ActionScript provides typing and can be compiled to JavaScript. (GH-stars) (GH-forks) (GH-issues)
+Synchronous to Asynchronous JavaScript Compilers (CPS)
+
+Streamline.js Uses underscore (_) to stand for callbacks. This fork preserves line numbers for debugging.
+(GH-stars) (GH-forks) (GH-issues)
+mobl The new language for programming the mobile web.
+StratifiedJS JavaScript + structured concurrency.
+NarrativeJS JavaScript extension with asynchronous futures and promises.
+jwacs JavaScript With Advanced Continuation Support.
+Wind.js Wind.js is an advanced library which enable us to control flow with plain JavaScript for asynchronous programming (and more) without additional pre-compiling steps.
+(GH-stars) (GH-forks) (GH-issues)
+TameJS adds new keywords 'await' and 'defer'
+Continuation.js A lightweight JIT compiler for simplifying asynchronous JavaScript programming with no runtime dependences. It supports both Node.js and browser-side JavaScript and is compatible with CoffeeScript (also TypeScript, and any other scripts compile to js).
+(GH-stars) (GH-forks) (GH-issues)
+Kal makes asynchronous programming easy and clean by allowing functions to pause and wait for I/O, replacing an awkward callback syntax with a clean, simple syntax
+(GH-stars) (GH-forks) (GH-issues)
+JSPipe provides JavaScript primitives to write async code without callbacks or chained functions. Inspired by Goroutines and Channels found in Go and in Clojure. For Web and NodeJS. ES5 and ES6.
+promiseLand promiseLand is a very promising Language. It includes ES5 strict mode, uses the * dereferencing operator to access promise results and introduces additional features designed to let you focus on your program logic. Such as dynamic typesafety, frame addressing, generic load and safe features.
+JavaScript Language Extensions
+
+ContextJS is an implementation of Context-oriented Programming for JavaScript.
+Objective-J Shares with JavaScript the same relationship that Objective-C has with the C programming language: that of being a strict, but small, superset.
+Mochiscript Object-oriented JavaScript with syntactic sugar. Released as a Ruby gem.
+(GH-stars) (GH-forks) (GH-issues)
+jangaroo AS3 (ActionScript) to JavaScript.
+Flapjax Event-driven, reactive evaluation.
+jLang adds object oriented syntax, namespaces, operators overriding
+Restrict Mode
+TIScript gentle extension of JavaScript
+Six Six is a language super-set of JavaScript that enables new syntactic features from the 6th edition of ECMAScript to be used, through a transpiler, in your scripts today.
+(GH-stars) (GH-forks) (GH-issues)
+js-- JavaScript subset for interactive/visual programming.
+Latte JS Superset of JavaScript (eventually ES6), with similar goals to CoffeeScript, but keeping JS syntax.
+(GH-stars) (GH-forks) (GH-issues)
+JSX by Facebook - a superset to add an XML-like syntax to represent HTML elements in React.
+(GH-stars) (GH-forks) (GH-issues)
+oj Objective-C inspired superset of JavaScript with a tiny runtime, built-in obfuscator, and experimental type checker (courtesy of Typescript).
+(GH-stars) (GH-forks) (GH-issues)
+mfjs Adds arbitrary side effects not already available in JavaScript. They may include but not limited to delimited continuations, asynchronous, logic, reactive, parallel, distributed and probabilistic programming. It doesn't extend syntax so it may be used with any other language compiling to JavaScript. (GH-stars) (GH-forks) (GH-issues)
+Ruby
+
+Opal Ruby to JavaScript compiler. (GH-stars) (GH-forks) (GH-issues)
+HotRuby Runs opcode, compiled by YARV on Ruby inside a web browser or in Flash.
+ColdRuby Compiler of Ruby 1.9 MRI bytecode, and a runtime written in JavaScript to aid in execution of Ruby code.
+(GH-stars) (GH-forks) (GH-issues)
+rb2js Converts Ruby to JavaScript.
+RubyJS A successor to rb2js
+Red Writes like Ruby and runs like JavaScript
+(GH-stars) (GH-forks) (GH-issues)
+Quby Used for game coding site, open source.
+8ball Ruby-to-JavaScript source-to-source transformer
+(GH-stars) (GH-forks) (GH-issues)
+Ruby2JS Minimal yet extensible Ruby to JavaScript conversion.
+(GH-stars) (GH-forks) (GH-issues)
+Python
+
+PYXC-PJ [CS friend] Python to JS. Can generate a (line/col)-number mappings file.
+Pyjamas Python to JS.
+Pyjaco Python to JavaScript compiler with module support.
+(GH-stars) (GH-forks) (GH-issues)
+Pyjs Python to (readable) JS.
+(GH-stars) (GH-forks) (GH-issues)
+Skulpt Python. Client side.
+PyCow Python to MooTools JS.
+(GH-stars) (GH-forks) (GH-issues)
+PyvaScript Python-like syntax to JavaScript.
+RapydScript JavaScript with a Pythonic syntax.
+(GH-stars) (GH-forks) (GH-issues)
+Bulbul Python3 to JavaScript/ES6/ES7 compiler. Apparently the only Python-to-JS compiler intended to provide support for AngularJS, React, Aurelia and other modern JS libs.
+(GH-stars) (GH-forks) (GH-issues)
+Brython Browser Python. Embed Python 3 in <script type="text/python">
+
+(GH-stars) (GH-forks) (GH-issues)
+
+PythonScript Python-like compiled to JavaScript
+pythonscript Python compiled to readable JavaScript using the AST. (proof of concept)
+(GH-stars) (GH-forks) (GH-issues)
+Rusthon Integrates several python to js methods into one project. Very Active. Not only for JS & Py, but also Go, C, Nim, etc.
+(GH-stars) (GH-forks) (GH-issues)
+PyPyJS PyPy. Compiled into JavaScript using Emscripten. JIT-compiling to JavaScript at runtime.
+(GH-stars) (GH-forks) (GH-issues)
+Batavia run Python bytecode in the browser
+(GH-stars) (GH-forks) (GH-issues)
+Transcrypt New Python 3.5 to JavaScript transpiler. Supports multiple inheritance, bound function assignment, selective operator overloading, highly readable JS output, sourcemaps, small downloads, fast execution using call memoizing. Integrated with closure compiler / minifier, optional static checker and fabric.js graphics lib for HTML5 canvas.
+
+(GH-stars) (GH-forks) (GH-issues)
+
+pseudo-python a restricted python to javascript/c#/go/ruby compiler
+Erlang
+
+Shen is the first and yet smallest Erlang JavaScript Compiler based on Erlang AST. It allows you to translate Elixir, Joxa, Lol and Erlang programs to JavaScript with erlc. JavaScript/OTP subset. Has node npm package called erlang-shen-js.
+LuvvieScript a browser-based dom-scripting language that is a strict sub-set of Erlang which is AST-to-AST transpiled to JavaScript (code )
+Elixir
+
+ElixirScript converts Elixir AST to JavaScript AST to JavaScript code. (GH-stars) (GH-forks) (GH-issues)
+Perl
+
+Perlito Project to compile Perl 5/6 to JavaScript, Ruby, SBCL, and Go.
+(GH-stars) (GH-forks) (GH-issues)
+p2js Perl to JavaScript converter
+(GH-stars) (GH-forks) (GH-issues)
+Java/JVM
+
+GWT Google Web Toolkit, compiles Java to JavaScript.
+(GH-stars) (GH-forks) (GH-issues)
+Java2Script Eclipse Java to JavaScript compiler plugin and JavaScript version of SWT.
+j2js Java bytecode to JavaScript.
+(GH-stars) (GH-forks) (GH-issues)
+Strongly-Typed JavaScript (STJS) – JavaScript code generator from Java source. It is built as a Maven plugin.
+BicaJVM JavaScript implementation of JVM.
+(GH-stars) (GH-forks) (GH-issues)
+Doppio JVM interpreter on CoffeeScript.
+(GH-stars) (GH-forks) (GH-issues)
+Processing.js, a Java-based visualization language that interprets to JavaScript.
+Kotlin Statically typed programming language targeting the JVM and JavaScript.
+(GH-stars) (GH-forks) (GH-issues)
+Ceylon a modular static-typed JVM language compilable to JavaScript.
+(GH-stars) (GH-forks) (GH-issues)
+GrooScript a framework to convert Groovy code to JavaScript.
+node-jvm java virtual machine in pure node.js
+(GH-stars) (GH-forks) (GH-issues)
+Bck2Brwsr Run "browserified" Java Code in, well, the browser.
+QWT QWT consists of a Java-to-JavaScript compiler, a prepared library of Qooxdoo componente (version 0.7.x) and some other tools. Similar to GWT
+TeaVM is an ahead-of-time transpiler that takes JVM bytecode and produces JavaScript.
+(GH-stars) (GH-forks) (GH-issues)
+Dragome SDK compiles JVM bytecode to Javascript.
+JSweet a Java to JavaScript transpiler built on top of TypeScript and giving access to hundreds of JavaScript libraries in Java.
+Scala
+
+Scala.js the official Scala to JavaScript compiler
+(GH-stars) (GH-forks) (GH-issues)
+js-scala JavaScript as an embedded DSL in Scala
+(GH-stars) (GH-forks) (GH-issues)
+scalagwt enhanced GWT (accepts jribble as well as Java) plus Scala to jribble.
+JScala Scala macro that produces JavaScript from Scala code.
+C#, F#, .NET related languages
+
+jsc [experimental] Recompile your .NET assembly to JavaScript, ActionScript, PHP or Java.
+JSIL MSIL (.NET bytecode) to JavaScript
+(GH-stars) (GH-forks) (GH-issues)
+Script# Compiles C# to JS.
+CilJs Translates CIL/MSIL (.NET bytecode) (C#) to JavaScript
+(GH-stars) (GH-forks) (GH-issues)
+Prefix in development
+Blade Visual Studio add-on for converting C# to JavaScript
+(GH-stars) (GH-forks) (GH-issues)
+SharpKit C# to JavaScript Cross-Compiler
+(GH-stars) (GH-forks) (GH-issues)
+Saltarelle C# to JavaScript Compiler. Saltarelle is now part of Bridge.NET.
+FunScript F# to JavaScript compiler with JQuery etc. mappings through a TypeScript type provider
+Pit F# to JavaScript compiler
+(GH-stars) (GH-forks) (GH-issues)
+WebSharper Lets you compile F# to JS.
+NemerleWeb Nemerle language compiled to JS.
+Blue Storm F# to JavaScript (and some other languages).
+JScriptSuite .NET to JavaScript compiler (cross browser API, client site controls and components).
+DotNetWebToolkit Toolkit providing a .NET CIL to JavaScript transcoder and Visual Studio project/debugging integration
+(GH-stars) (GH-forks) (GH-issues)
+Netjs .NET to TypeScript and JavaScript compiler. It uses multiple stages to produce JavaScript for your web apps.
+(GH-stars) (GH-forks) (GH-issues)
+WootzJs C# to Javascript cross-compiler built on top of Microsoft Roslyn, which handles the complex process of converting your C# code into syntax trees with symbol information
+(GH-stars) (GH-forks) (GH-issues)
+DuoCode C#-to-JavaScript compiler powered by Microsoft Roslyn
+Bridge.NET - Open Source C#-to-JavaScript compiler. Includes jQuery + many other frameworks. Developed and well supported by a professional team. (GH-stars) (GH-forks) (GH-issues)
+Fable - F# to JavaScript Compiler  (GH-stars) (GH-forks) (GH-issues)
+Lisp, Scheme
+
+Clojure-like
+
+ClojureScript Clojure to JS, the official version. Supports the majority of Clojure including persistent datastructures.
+(GH-stars) (GH-forks) (GH-issues)
+ClojureJS Subset of Clojure to JS.
+(GH-stars) (GH-forks) (GH-issues)
+Chlorinejs A fork of ClojureJS with a port of clojure.core library.
+(GH-stars) (GH-forks) (GH-issues)
+wisp A homoiconic JavaScript dialect with Clojure syntax, S-expressions and macros. Aims to be rich subset of Clojure(Script) that seamlessly interops with both Clojure(Script) and JavaScript. ○
+(GH-stars) (GH-forks) (GH-issues)
+Scriptjure Library for generating JavaScript from Clojure forms.
+(GH-stars) (GH-forks) (GH-issues)
+ki Clojure-like syntax, mori's immutable data structures in a few sweet.js macros. Can be intermixed with JavaScript. ○
+Scheme-like
+
+BiwaScheme Scheme(R6RS) in JavaScript
+Fargo Scheme in JavaScript
+(GH-stars) (GH-forks) (GH-issues)
+Moby Scheme A Scheme running in JS.
+(GH-stars) (GH-forks) (GH-issues)
+nconc Scheme interpreter in JavaScript with stack-friendly tail calls and full call/cc
+(GH-stars) (GH-forks) (GH-issues)
+Scheje A Little Scheme on Top of Clojure - compiles on Node.js and the Browser.
+scheme2js Scheme to JavaScript.
+Spock A Scheme to JavaScript compiler that uses Henry Baker's Cheney-on-the-MTA compilation strategy
+Whalesong Racket to JS compiler
+Other
+
+eslisp An S-expression syntax for ECMAScript/JavaScript, with Lisp-like hygienic macros that are just JS functions. Aims to be very close to JS, and highly experimental.
+(GH-stars) (GH-forks) (GH-issues)
+EdgeLisp A Lisp in the tradition of Common Lisp
+(GH-stars) (GH-forks) (GH-issues)
+Parenscript Subset of Common Lisp to JS.
+Ralph Lisp-1 dialect that compiles to JavaScript, inspired by Dylan
+(GH-stars) (GH-forks) (GH-issues)
+Oppo A JavaScripter’s lisp. Inspired by JavaScript, Clojure and CoffeeScript. Compiler built using Jison.
+(GH-stars) (GH-forks) (GH-issues)
+LispyScript A JavaScript with Lispy syntax and Macros. ○
+Outlet A simple Lisp that supports CPS and in-browser stepping debugging, and other things. In development.
+(GH-stars) (GH-forks) (GH-issues)
+Hot Cocoa Lisp A Lisp-like language that compiles to JavaScript. ○
+(GH-stars) (GH-forks) (GH-issues)
+Sibilant JavaScript with a lisp. ○
+jisp A JS-native and axiomatic Lisp that focuses on the core ideas of code-as-data, S-expressions, and macros, introducing as few new concepts as possible. ○
+JSCL A Lisp-to-Javascript compiler bootstrapped from Common Lisp (GH-stars) (GH-forks) (GH-issues)
+OCaml
+
+Ocamljs OCaml to JS.
+(GH-stars) (GH-forks) (GH-issues)
+O'Browser OCaml bytecode interpreter in JS.
+Js_of_ocaml OCaml bytecode to JS compiler.
+(GH-stars) (GH-forks) (GH-issues)
+Bucklescript OCaml to readable JS (GH-stars) (GH-forks) (GH-issues)
+Haskell
+
+UHC (Utrecht Haskell Compiler) backend converts UHC core to JavaScript, allowing the compiling of Haskell code to JS.
+ghcjs Compile normal Haskell into JS
+(GH-stars) (GH-forks) (GH-issues)
+jmacro Quasi-Quoted JS that you can insert Haskell values into (there is also shakespeare-js for that purpose), but also supports a more Haskellish syntactic version of JavaScript.
+https://github.com/aculich/lambdascript Compile a subset of Haskell into JS
+YHC (York Haskell Compiler) backend, as above but with YHC core language.
+jshaskell
+haste
+(GH-stars) (GH-forks) (GH-issues)
+fay A proper subset of Haskell that compiles to JavaScript
+forml A contemporary programming language intended to approximate the safety of Haskell and the expressiveness of Ruby.
+(GH-stars) (GH-forks) (GH-issues)
+Smalltalk
+
+Amber – formerly known as Jtalk
+Clamato a Smalltalk dialect that is designed to operate within the JavaScript runtime.
+Silver Smalltalk [commercial?] Smalltalk in the browser. (Still active?)
+Lively Kernel – smalltalk/squeak-like development environment in the browser. See also Avocado, built on top of it.
+Little Smallscript Little Smalltalk to JavaScript translator.
+(GH-stars) (GH-forks) (GH-issues)
+SqueakJS Squeak VM in Javascript
+(GH-stars) (GH-forks) (GH-issues)
+PharoJS PharoJS is a Pharo to JavaScript compiler and infrastructure for remote test and debugging. The goal is to enable developing apps in Pharo while deploying them on top of a JavaScript engine.
+(GH-stars) (GH-forks) (GH-issues)
+C/C++
+
+Emscripten LLVM to JavaScript compiler. LLVM is "an aggressive open-source compiler for C and C++," as well as other languages.
+(GH-stars) (GH-forks) (GH-issues)
+Cheerp (formerly Duetto) “compiles C++ applications to binary code and JavaScript. Based and integrated into the LLVM/clang infrastructure”
+maja vala (gobject) to JavaScript
+Clue C language compiler to different runtimes (Lua, JS, Perl 5, C, Java, CL).
+LLJS typed dialect of JavaScript that offers a C-like type system with manual memory management
+Mandreel Can convert C++ and Objective-C applications based on OpenGL ES to JavaScript or Action Script 3 web application.
+Bonsai-C Convert C code to asm.js
+(GH-stars) (GH-forks) (GH-issues)
+Basic
+
+NS Basic/App Studio [commercial] Visual Basic-style BASIC to JavaScript compiler. Includes IDE. Targets iOS and Android
+qb.js An implementation of QBASIC in JavaScript
+Spiderbasic [commercial] SpiderBasic is new web client-side programming language based on established BASIC rules. Its main purpose is to allow development of very complex, windowed based web applications. It provides a large commandset to handle complex and reactive GUI, 2D games, and many more in a coherent manner.
+Monkey (see below)
+Pascal, Modula, Oberon
+
+Smart Mobile Studio [commercial] Object Pascal to JavaScript compiler and Delphi like IDE that brings classes, inheritance, interfaces and more to JavaScript
+Elevate Web Builder [commercial] Visual development tool for web applications that compiles standard Object Pascal source code into JavaScript
+Oberon 07 Translates Oberon to JavaScript code ready to be run in web browser or nodejs. Compiler itself is written in Oberon (with extensions) and compiled to JavaScript.
+Go
+
+Go2js Line-to-line translator from Go to JavaScript.
+(GH-stars) (GH-forks) (GH-issues)
+GopherJS A compiler from Go to JavaScript.
+(GH-stars) (GH-forks) (GH-issues)
+TARDISgo Compile Golang to Haxe (then on to JavaScript, Flash, Java, C++, C#, PHP, Python & Neko)
+Multitarget
+
+Haxe compiles to several platforms (C++, Flash, JS, Neko, PHP, Java, C#, Python).
+(GH-stars) (GH-forks) (GH-issues)
+Fantom Evolutionary object-oriented language emphasizing succinct and effective APIs (JVM, CLR, JS).
+LZX (Laszlo XML) LZX is OpenLaszlo's declarative user interface language, which is compiled into JavaScript 2 as an intermediary format, and further compiled into either JavaScript 1.5 or ActionScript 3.
+Clue and jsc above target multiple runtimes in addition to JavaScript
+Nim compiles to C, C++, Objective-C, and JavaScript
+(GH-stars) (GH-forks) (GH-issues)
+Monkey is a Basic-like programming language that compiles to several platforms (JavaScript, ActionScript 3, C++, Java, C#). The main application/game framework is [commercial].
+defrac compiles Java bytecode to several platforms (including JavaScript)
+Ć Programming Language is automatically translated to C, Java, C#, JavaScript, ActionScript, Perl and D.
+Skew a web-first, cross-platform programming language with an optimizing compiler (compiles to JS and C++) (GH-stars) (GH-forks) (GH-issues)
+Tierless languages (produce both client & server)
+
+Fun A programming language for realtime webapps – compiles to client-side and server-side JS.
+(GH-stars) (GH-forks) (GH-issues)
+Ur In the tradition of ML and Haskell.
+mobl The new language for programming the mobile web.
+E Compiles E to JS. E is a secure distributed persistent pure object language.
+Sugar new programming language designed to replace JavaScript
+(GH-stars) (GH-forks) (GH-issues) for client-side (and server-side) web development
+Opa write your complete application in just one language, and the compiler will transform it into a self-sufficient executable
+STIP.js Slicing Tierless Programs in JavaScript
+Visual programming tools
+
+Waterbear Tool for making Scratch-inspired block-based languages on the web. Examples include blocks for JavaScript, ProcessingJS, NodeJS, and more.
+Snap – JavaScript of BYOB, which is a fork of Scratch
+ScriptBlocks
+Illumination [Commercial] Visual, cross-platform tool creates apps for Android, iPhone, iPad, Desktops and HTML5 or Flash websites. The I language underlies the tool.
+JsMaker visual JavaScript programming
+Meemoo flow-based visual programming framework for hackable web apps
+NoFlo JavaScript implementation of Flow-Based Programming. Programs (network graphs) can be visually created with DrawFBP
+Blockly web-based, graphical programming language. Users can drag blocks together to build an application
+Maeda Block – visual game programming language powered by enchant.js and Google Blockly. See also the Japanese version.
+SQL
+
+sql-parser
+(GH-stars) (GH-forks) (GH-issues)
+sqld3
+(GH-stars) (GH-forks) (GH-issues)
+Alasql - SQL to JavaScript parser and compiler
+(GH-stars) (GH-forks) (GH-issues)
+sql.js - SQLite compiled to javascript
+PHP
+
+phype run PHP code directly in your browser
+uniter run PHP code in Node.js or the browser
+(GH-stars) (GH-forks) (GH-issues)
+php.js PHP VM with JavaScript, allow to run PHP code in Node.js or the browser
+(GH-stars) (GH-forks) (GH-issues)
+Others
+
+Oia A port of Io to JavaScript.
+(GH-stars) (GH-forks) (GH-issues)
+Plaid A gradually-typed, typestate-oriented language designed as a better Java.
+Quixe a Glulx VM interpreter written in JavaScript
+(GH-stars) (GH-forks) (GH-issues)
+Gnusto a Z-Machine VM interpreter written in JavaScript
+(GH-stars) (GH-forks) (GH-issues)
+Logo Interpreter
+Reb2Static Rebol to JavaScript
+(GH-stars) (GH-forks) (GH-issues)
+RPN Interpreter for a language with a Reverse Polish Notation syntax.
+(GH-stars) (GH-forks) (GH-issues)
+jsForth
+wForth
+Agda a dependently typed functional programming language and mechanized proof assistant
+XLCC Interpret LCC into JavaScript on node
+(GH-stars) (GH-forks) (GH-issues)
+SMLtoJs SML to JavaScript compiler
+lua.js Lua parser
+(GH-stars) (GH-forks) (GH-issues)
+Brozula Lua bytecode interpreter
+(GH-stars) (GH-forks) (GH-issues)
+Pygmy a dynamic language that compiles to JavaScript designed to be readable but concise enough to be competitive in code golf.
+(GH-stars) (GH-forks) (GH-issues)
+browserl An Erlang Emulator written in JavaScript
+(GH-stars) (GH-forks) (GH-issues)
+ErlyJS JavaScript to Erlang compiler
+(GH-stars) (GH-forks) (GH-issues)
+Topaz Rebol inspired language on top of JavaScript
+(GH-stars) (GH-forks) (GH-issues)
+NGN APL an APL-to-JavaScript compiler written in CoffeeScript
+(GH-stars) (GH-forks) (GH-issues)
+CobolScript COBOL language compiler to JavaScript.
+(GH-stars) (GH-forks) (GH-issues)
+Idris Dependently typed functional language with a JavaScript backend.
+(GH-stars) (GH-forks) (GH-issues)
+Dogescript JavaScript for the moon; so syntax very doge much future.
+Wortel J/APL inspired language with Polish Notation, compiles to JavaScript.
+(GH-stars) (GH-forks) (GH-issues)
+oK K5 implementation on top of Javascript.
+JEnglish interprets regular English statements into HTML/CSS
+uilang and uiscript simple UI-focused script languages for web designers
+(GH-stars) (GH-forks) (GH-issues)
+Hodor - Hodor programming language
+Mason
+L2 a simple, table-based language for data analysis
+(GH-stars) (GH-forks) (GH-issues)
+Tools for Compiler Writers
+
+JavaScript Parsers and Extensions
+
+Narcissus Mozilla's experimental JavaScript compiler in JavaScript by Brendan Eich and others.
+CommonJS version in DoctorJS
+Jasy: Python port of Narcissus with some enhancements
+PyNarcissus Narcissus's parser ported to Python (used in pyjon)
+rbnarcissus Narcissus' parser ported to Ruby.
+Traceur Google's vehicle for JavaScript Language Design Experimentation
+EcmaScript 5 Parser (es-lab)
+EcmaScript 5 Parser (qfox)
+reflect.js Implementation of Mozilla's (SpiderMonkey) Parser API in JavaScript
+(GH-stars) (GH-forks) (GH-issues)
+bdParse a JavaScript LL(1) parser in JavaScript
+(GH-stars) (GH-forks) (GH-issues)
+parse-js Common Lisp JavaScript parser
+ZeParser
+(GH-stars) (GH-forks) (GH-issues)
+Esprima Educational (but fast) ECMAScript parser with output compatible to Mozilla Parser API
+js.js A JavaScript JavaScript interpreter. Instead of trying to create an interpreter from scratch, SpiderMonkey is compiled into LLVM and then emscripten translates the output into JavaScript.
+(GH-stars) (GH-forks) (GH-issues)
+sweet.js Brings hygienic macros to JavaScript. Lets you write extensions to JavaScript that must be invoked by the user.
+smpl.js The first compiler built for the purpose of transpiling first.
+acorn A small, fast, JavaScript-based JavaScript parser
+Babel turn your ES6+ code into ES5 friendly code
+(GH-stars) (GH-forks) (GH-issues)
+JavaScript Optimizers
+
+Closure Compiler An optimizing compiler. Can generate a (line/col)-number mappings file.
+UglifyJS
+(GH-stars) (GH-forks) (GH-issues)
+JavaScript Parser Generators
+
+jison Bison in JavaScript, used by CoffeeScript
+(GH-stars) (GH-forks) (GH-issues)
+nearley A fast, lightweight Earley parser generator
+(GH-stars) (GH-forks) (GH-issues)
+OMeta/JS (source) metacompiler for many languages to many targets, including js.
+PEG.js parser generator for JavaScript based on the parsing expression grammar formalism
+languagejs – PEG parser written in JavaScript with first class errors
+(GH-stars) (GH-forks) (GH-issues)
+Canopy Self-hosting PEG parser compiler for JavaScript, influenced by Ruby parser generators such as Treetop and Citrus
+(GH-stars) (GH-forks) (GH-issues)
+JS/CC LALR(1) parser generator
+jsparse PEG by Grandmaster Chris Double
+(GH-stars) (GH-forks) (GH-issues)
+ReParse parser combinator library for JavaScript like Haskell's Parsec
+(GH-stars) (GH-forks) (GH-issues)
+p4js Monadic parser library for JavaScript
+(GH-stars) (GH-forks) (GH-issues)
+JSGLR Scannerless, Generalized Left-to-right Rightmost (SGLR) derivation parser for JavaScript
+ANTLR 3 has a JavaScript target. ANTLR 4 has not implemented its JavaScript target yet.
+(GH-stars) (GH-forks) (GH-issues)
+Cruiser.Parse LL(k) parser
+MetaCoffee PEG parser using CoffeeScript and white-space-significant syntax
+(GH-stars) (GH-forks) (GH-issues)
+Bennu Parsec inspired Javascript parser combinator library.
+JavaScript AST, Semantics
+
+WebAssembly - W3C cross-browser collaboration on a new, portable, size- and load-time-efficient format suitable for compilation to the web.
+Closure Compiler AST Documentation
+SpiderMonkey Parser API - see also reflect.js above. The AST interface specification is succeeded by the ESTree specification effort.
+ESTree Specification - An effort to better standardize an AST specification based on the original Spidermonkey Parser API. It is used by Acorn, Esprima, and SpiderMonkey's own parser. This succeeds the original SpiderMonkey Parser API's AST specification.
+(GH-stars) (GH-forks) (GH-issues)
+Shift JavaScript AST Specification - see this blog post with more information
+(GH-stars) (GH-forks) (GH-issues)
+JsonML AST format used by the es5 parser
+treehugger JavaScript AST transformation tools
+(GH-stars) (GH-forks) (GH-issues)
+JavaScript Shaper JavaScript syntax tree shaping
+burrito & js-traverse – see this post for more info, as well as node-stackedy for an example and node-browserify for running it in a browser instead of node
+(GH-stars) (GH-forks) (GH-issues)
+falafel - transform the ast on a recursive walk
+(GH-stars) (GH-forks) (GH-issues)
+rocambole - inspired by burrito & falafel, recursively walk and transform EcmaScript AST
+(GH-stars) (GH-forks) (GH-issues)
+JavaScript types – lambdajs, flow typing
+SourceMap map JavaScript debugger output to original source
+(GH-stars) (GH-forks) (GH-issues)
+Zeon A static visual JavaScript analyzer / editor. See also ZeParser.
+(GH-stars) (GH-forks) (GH-issues)
+escodegen – JavaScript code generator
+(GH-stars) (GH-forks) (GH-issues)
+esmangle minifier for Mozilla Parser API AST
+(GH-stars) (GH-forks) (GH-issues)
+estraverse ECMAScript traversal functions from esmangle project
+(GH-stars) (GH-forks) (GH-issues)
+ecma-ast AST node data structures for ECMAScript 5.1 based on the SpiderMonkey Parser API
+(GH-stars) (GH-forks) (GH-issues)
+esast Slow compilation? Use typed data for fast AST construction and rendering. Compatible with JSON trees following estree.
+(GH-stars) (GH-forks) (GH-issues)
+Astring Tiny and fast JavaScript code generator from an ESTree-compliant AST.
+
+
+Simplified JavaScript Jargon logoSimplified JavaScript Jargon
+Search an entry
+What do you want to learn…
+
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+If you enjoy Simplified JavaScript Jargon, be sure to check the related projects!
+
+A
+Ajax: a technology for asynchronous HTTP requests
+AMD: a standard defining how to load JavaScript libraries or modules asynchronously
+AngularJS: a structural framework for dynamic web apps
+Apache Cordova: a popular mobile application development framework originally created by Nitobi
+Arity: the number of arguments of a function
+B
+Babel: a JavaScript transformation toolkit which started as an ECMAScript 2015 / ES6 code translator (transpiler)
+Backbone: a structural framework for dynamic web apps
+BEM: a methodology and libraries developed and used at Yandex for building user interfaces
+Bluebird: a fully featured Promise library with focus on innovative features and performance
+Bower: a package manager for front-end dependencies
+Broccoli: a fast and reliable asset pipeline
+Browserify: a tool making possible to use the `require` function from Node.js within the browser
+Brunch: a tool focusing on the production of deployment-ready files from development files
+C
+Canvas: an HTML element for graphic applications in 2D or 3D
+Chai: an assertion library used with a JavaScript testing framework
+Chakra: a JavaScript engine developed by Microsoft for its Edge browser which could also be used with Node.js instead of V8.
+Closure: a way of referencing variables from a child function while retaining their value even if it changes in the parent function
+Closure Compiler: a JavaScript checker and optimizer
+Coffeescript: a language that compiles into JavaScript
+CommonJS: a project with the goal of specifying an ecosystem for JavaScript outside the browser (for example, on the server or for native desktop applications)
+CORS: a way for a server to make things accessible to pages hosted on other domains
+CouchDB: a NoSQL database with JavaScript as query language and HTTP as API
+Currying: the process to transform a function with multiple parameters into a chain of functions of one parameter
+D
+D3.js: a library for manipulating documents based on data
+Design Patterns: a general reusable solution to a commonly occurring problem within a given context in software design
+DOM: a platform- and language-neutral interface that allow programs and scripts to dynamically access and update the content, structure and style of documents
+E
+ECMAScript (ES): the standardized specification of the scripting language used by JavaScript
+Electron: a framework based on Node.js lets you write cross-platform desktop applications using JS, HTML and CSS
+Ember: an application framework based on the model-view-controller pattern
+Enzyme: a JavaScript Testing utility for React developed by AirBnB that makes it easier to assert, manipulate, and traverse React components’ output.
+ESLint: a JavaScript code linter
+Express: a fast, un-opinionated, minimalist web framework for Node.js
+Ext JS: a pure JavaScript application framework for building interactive cross platform web applications
+F
+Facade Pattern: a software design pattern commonly used with object-oriented programming. The name is by analogy to an architectural facade
+Factory Pattern: a creational pattern that uses factory methods to deal with the problem of creating objects without having to specify the exact class of the object that will be created
+Falcor: a JavaScript library for efficient data fetching
+Flow: a static type checker, designed to find type errors in JavaScript programs
+Flux: an application structure focusing on improved data flow
+Four: a framework to develop 3D content for the web
+G
+Grunt: a task runner aiming at automating tedious and possibly complex tasks
+Gulp: a task runner aiming at automating tedious and possibly complex tasks
+H
+Hapi: a Node JS framework for writing services and more
+Hoisting: an action performed by the JavaScript interpreter that moves function and variable declarations to the top of their containing scope
+I
+IIFE: a function that gets called immediately after declaration
+Ionic: a HTML5 mobile framework to build beautiful hybrid native mobile applications using AngularJS and Cordova
+Isomorphic: an application is said to be isomorphic (universal) when its code can run both in the client and the server
+J
+Jasmine: a testing framework for BDD (Behaviour-Driven Development)
+jQuery: a fast, small, and feature-rich client-side library
+JSCS: a JavaScript code linter
+JSHint: a JavaScript code linter
+JSLint: a JavaScript code linter
+JSON-LD: JSON for Linked Data
+JSON: a lightweight data-interchange format
+JSPM: like npm with its own build system and multiple resources management
+JSX: an XML-like syntax extension to JavaScript
+K
+Knockout: a library that helps developers creating user interfaces with a clean underlying data model
+L
+LocalForage: a fast and simple storage library for JavaScript
+Lodash: an utility toolkit to extend JavaScript primitive types
+M
+MEAN: the technology stack MongoDB, ExpressJS, AngularJS, and Node.js (MEAN)
+Mediator Pattern: an object that encapsulates how a set of objects interact
+Memoize: an optimization used to speed up consecutive function calls by caching the result of calls with identical input
+Metalsmith: a simple, pluggable static site generator
+Meteor: a JavaScript web framework that allows rapid prototypic web development
+Mocha: an extensible testing framework for TDD (Test-Driven Development) or BDD (Behaviour-Driven Development)
+Modernizr: a browser feature detection library, useful to modify page styles when a feature is not available in the browser
+Module Pattern: a design pattern used to implement the concept of software modules, defined by modular programming, in a programming language with incomplete direct support for the concept
+Moment.js: a library to parse, validate, manipulate and display dates
+MongoDB: a Javascript NoSQL database
+MooTools: a collection of JavaScript utilities designed for the intermediate to advanced JavaScript developer. It allows you to write powerful and flexible code with its elegant, well documented, and coherent APIs
+N
+Nightmare: a high-level browser automation library
+NightwatchJS: a framework for browser automated testing
+Node.js: a cross-platform runtime environment for developing server-side applications built on V8 engine
+npm: a utility to help publishing packages to, and installing from, an npm repository
+nvm: a utility to help run multiple versions of Node.js on the same machine
+O
+Observer Pattern: a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods
+P
+Passport.js: a simple authentication middleware
+PhantomJS: a scripted, headless browser used for automating web page interaction
+Polymer: Google’s library for creating Web Components
+PostCSS: a tool to transform CSS styles using JavaScript plugins; plugins include autoprefixer, future CSS transpiling, CSS linting and media queries
+Promise: a proxy for a value not necessarily known immediately but that will eventually be resolved
+Prototype: a JavaScript framework that aims to ease development of dynamic web applications. It offers a familiar class-style OO framework, extensive Ajax support, higher-order programming constructs, and easy DOM manipulation
+Prototype Pattern: a creational design pattern in software development. It is used when the type of objects to create is determined by a prototypical instance, which is cloned to produce new objects
+Pure Function: a functional programming paradigm that ensures that a function has some strict properties.
+Q
+Q: a library to create and manage promises
+QUnit: a powerful, easy-to-use JavaScript unit testing framework
+R
+Ramda: a practical functional library for JavaScript programmers
+React: a library developed and used at Facebook for building user interfaces
+Redux: a predictable state container for apps
+RequireJS: a browser based module loader using AMD
+Revealing Module Pattern: a design pattern conceptually based on the Module Pattern. The only difference is that the *revealing module pattern* was engineered as a way to ensure that all methods and variables are kept private until they are explicitly exposed
+rnpm: a package manager to ease React Native development
+RxJS: a library for asynchronous programming using observable streams
+S
+Sails: a realtime MVC Framework for Node.js
+Singleton Pattern: a design pattern that restricts the instantiation of a class to one object
+T
+Three.js: a lightweight 3D library to create and display animated 3D computer graphics on a Web browser
+TypeScript: a super-set of the JavaScript language that introduces types
+U
+UMD: a pattern of universal module definition for JavaScript modules
+Underscore: a swiss army knife, focusing on helper methods for most built-in objects
+Universal: an application is said to be universal (isomorphic) when its code can run both in the client and the server
+V
+V8: Google’s open source JavaScript engine. It’s what Chrome is running, but it’s also used for other projects like Node.js and MongoDB
+Vanilla: a term for library/framework free JavaScript
+Virtual DOM: a pattern in which a JavaScript representation of the desired DOM is created and the framework sorts out the details of how to make it happen
+VueJS: a library for creating user interfaces based on data models
+W
+WebGL: a JavaScript API for rendering interactive 3D and 2D graphics within any compatible web browser without the use of plug-ins
+Webpack: a dependency manager with a friendly and fast development environment, simplifying a lot of common tasks
+X
+XHR: XMLHttpRequest is an API that provides client functionality for transferring data between a client and a server without page refresh
+Y
+Yeoman: a generator builder to speed up the setup and installation process of a project or part of a project
+Z
+Zepto: a lightweight jQuery clone, without all the browser-compatibility specific code
+Simplified JavaScript Jargon (short SJSJ) is a community-driven attempt at explaining the loads of buzzwords making the current JavaScript ecosystem in a few simple words. The idea is not to replace individual documentations, but to act as some kind of glossary that can be easily referenced.
