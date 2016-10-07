@@ -1,0 +1,12 @@
+@import 'config/normalize';
+@import 'config/variables';
+@import 'config/typography';
+@import 'config/page-config';
+
+@import 'main/layout';
+@import 'main/footer';
+
+body {
+ 	background-color: $bg-primary;
+  color: $text-primary;
+}

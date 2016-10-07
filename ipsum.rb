@@ -8,6 +8,6 @@ get '/' do
  	erb :index
 end
 
-get '/style.css' do 
-	scss :"stylesheets/style"
+get '/style.css' do
+	scss :"../stylesheets/style"
 end

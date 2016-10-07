@@ -1,0 +1,10 @@
+.main-wrapper {
+  width: 90%;
+  max-width: 50em;
+  margin: 2em auto;
+
+  @media screen and (min-width: $medium) {
+    width: 80%;
+    margin: 4em auto;
+  }
+}

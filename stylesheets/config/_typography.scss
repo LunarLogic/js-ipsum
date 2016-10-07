@@ -1,0 +1,31 @@
+@mixin font-sizes($font-sizes-group) {
+  font-size: map-get($font-sizes-group, 'small');
+
+  @media screen and (min-width: $medium) {
+    font-size: map-get($font-sizes-group, 'medium');
+  }
+
+  @media screen and (min-width: $big) {
+    font-size: map-get($font-sizes-group, 'big');
+  }
+}
+
+$h1-sizes: (
+  'small': 1.25em,
+  'medium': 2em,
+  'big': 3em
+);
+
+$h2-sizes: (
+  'small': 1em,
+  'medium': 1.25em,
+  'big': 1.5em
+);
+
+h1 {
+  @include font-sizes($h1-sizes);
+}
+
+h2 {
+  @include font-sizes($h2-sizes);
+}

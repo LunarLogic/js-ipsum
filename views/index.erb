@@ -10,27 +10,34 @@
 </head>
 
 <body>
-  <h1>Hello Ipsum!</h1>
+  <div class="main-wrapper">
+    <h1>Hello Ipsum!</h1>
 
-  <section>
-    <h2> Generate your own JS gibberish</h2>
-    <form>
-      <fieldset>
-        <legend>Choose the text length:</legend>
-        <input id="short" type="radio" name="text-length" value="short">
-        <label for="short">short</label><br>
-        <input id="medium" type="radio" name="text-length" value="medium">
-        <label for="medium">medium</label><br>
-        <input id="long" type="radio" name="text-length" value="long">
-        <label for="long">long</label>
-      </fieldset>
+    <section>
+      <h2> Generate your own JS gibberish</h2>
+      <form>
+        <fieldset>
+          <legend>Choose the text length:</legend>
+          <input id="short" type="radio" name="text-length" value="short">
+          <label for="short">short</label><br>
+          <input id="medium" type="radio" name="text-length" value="medium">
+          <label for="medium">medium</label><br>
+          <input id="long" type="radio" name="text-length" value="long">
+          <label for="long">long</label>
+        </fieldset>
 
-      <button type="submit">Reload</button>
-    </form>
+        <button type="submit">Reload</button>
+      </form>
 
-    <h2> Your generated text</h2>
-    <div role="region" aria-live="polite">
-      <%= @generated %>
-    </div>
-  </section>
+      <h2> Your generated text</h2>
+      <div role="region" aria-live="polite">
+        <%= @generated %>
+      </div>
+    </section>
+  </div>
+  <footer role="contentinfo">
+    <p>
+      JS Ipsum is brought to you by <a href="http://lunarlogic.io">Lunar Logic</a>. If you are interested in creating a React/Ruby project, <a href="http://www.lunarlogic.io/#contact">contact us</a>.
+    </p>
+  </footer>
 </body>
