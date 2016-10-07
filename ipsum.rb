@@ -9,5 +9,5 @@ get '/' do
 end
 
 get '/style.css' do 
-	scss :style
+	scss :"stylesheets/style"
 end
