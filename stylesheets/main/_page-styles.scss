@@ -1,0 +1,63 @@
+.length-filter-box {
+  display: inline-block;
+  border: none;
+}
+
+.length-filter-input {
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+
+  &:checked,
+  &:focus,
+  &:active {
+
+    + label {
+      background: $main-accent;
+      color: $bg-primary;
+    }
+  }
+}
+
+.length-filter-label {
+  padding: .5em .75em;
+  border: 3px solid $main-accent;
+  font-weight: 400;
+  cursor: pointer;
+
+  &:first-of-type {
+    border-radius: $border-radius 0 0 $border-radius;
+    border-right: none;
+    margin-right: -4px;
+  }
+
+  &:last-of-type {
+    border-radius: 0 $border-radius $border-radius 0;
+    border-left: none;
+    margin-left: -4px;
+  }
+}
+
+.btn-reload {
+  display: inline-block;
+  height: 1.75em;
+  background: transparent;
+  border: 1px solid transparent;
+
+  &:focus,
+  &:active {
+    border: 1px solid $main-accent;
+  }
+}
+
+.btn-icon {
+  fill: $main-accent;
+}
+
+.output-box {
+  padding: 2em;
+  border: 1px solid;
+  font-size: 1.25em;
+  border-radius: $border-radius;
+}

@@ -10,27 +10,32 @@
 </head>
 
 <body>
-  <div class="main-wrapper">
-    <h1>Hello Ipsum!</h1>
+  <div class="l-main-wrapper">
+    <h1>JS Ipsum</h1>
 
     <section>
       <h2> Generate your own JS gibberish</h2>
       <form>
-        <fieldset>
+        <fieldset class="length-filter-box">
           <legend>Choose the text length:</legend>
-          <input id="short" type="radio" name="text-length" value="short">
-          <label for="short">short</label><br>
-          <input id="medium" type="radio" name="text-length" value="medium">
-          <label for="medium">medium</label><br>
-          <input id="long" type="radio" name="text-length" value="long">
-          <label for="long">long</label>
+          <input id="short" type="radio" name="text-length" value="short" class="length-filter-input">
+          <label for="short" class="length-filter-label">short</label>
+          <input id="medium" type="radio" name="text-length" value="medium" class="length-filter-input">
+          <label for="medium" class="length-filter-label">medium</label>
+          <input id="long" type="radio" name="text-length" value="long" class="length-filter-input">
+          <label for="long" class="length-filter-label">long</label>
         </fieldset>
 
-        <button type="submit">Reload</button>
+        <button type="submit" class="btn-reload">
+          <span class="visually-hidden">Reload</span>
+          <i aria-hidden="true" class="btn-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M9 12l-4.463 4.969-4.537-4.969h3c0-4.97 4.03-9 9-9 2.395 0 4.565.942 6.179 2.468l-2.004 2.231c-1.081-1.05-2.553-1.699-4.175-1.699-3.309 0-6 2.691-6 6h3zm10.463-4.969l-4.463 4.969h3c0 3.309-2.691 6-6 6-1.623 0-3.094-.65-4.175-1.699l-2.004 2.231c1.613 1.526 3.784 2.468 6.179 2.468 4.97 0 9-4.03 9-9h3l-4.537-4.969z"/></svg>
+          </i>
+        </button>
       </form>
 
       <h2> Your generated text</h2>
-      <div role="region" aria-live="polite">
+      <div class="output-box" role="region" aria-live="polite">
         <%= @generated %>
       </div>
     </section>

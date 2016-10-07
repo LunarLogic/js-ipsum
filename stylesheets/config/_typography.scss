@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Lato:300,400';
+
 @mixin font-sizes($font-sizes-group) {
   font-size: map-get($font-sizes-group, 'small');
 
@@ -11,21 +13,36 @@
 }
 
 $h1-sizes: (
-  'small': 1.25em,
-  'medium': 2em,
-  'big': 3em
+  'small': 3em,
+  'medium': 4em,
+  'big': 6em
 );
 
 $h2-sizes: (
-  'small': 1em,
-  'medium': 1.25em,
-  'big': 1.5em
+  'small': 2em,
+  'medium': 2.5em,
+  'big': 3em
 );
+
+body {
+  font-size: 100%;
+  font-family: $font-secondary;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+h1,
+h2 {
+  font-family: $font-primary;
+  margin: 0;
+}
 
 h1 {
   @include font-sizes($h1-sizes);
+  font-weight: 700;
 }
 
 h2 {
   @include font-sizes($h2-sizes);
+  font-weight: 400;
 }

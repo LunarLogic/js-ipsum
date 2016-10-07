@@ -2,11 +2,13 @@
 @import 'config/variables';
 @import 'config/typography';
 @import 'config/page-config';
+@import 'config/utilities';
 
 @import 'main/layout';
 @import 'main/footer';
+@import 'main/page-styles';
 
 body {
  	background-color: $bg-primary;
-  color: $text-primary;
+  color: $main-accent;
 }
