@@ -4,7 +4,8 @@ require 'marky_markov'
 get '/' do
 	@text_length =  params[:"text-length"]
 	markov = MarkyMarkov::TemporaryDictionary.new
-	markov.parse_file "file.txt"
+	markov.parse_file "jargon.txt"
+	markov.parse_file "wiki.txt"
 	if @text_length == "short" then
 		@generated = markov.generate_n_sentences 1
 	elsif @text_length == "medium" then
