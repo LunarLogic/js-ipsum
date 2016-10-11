@@ -5,7 +5,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>JS Ipsum - random JavaScript text generator</title>
-
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <link rel="stylesheet" href="/style.css"/>
 </head>
 
@@ -18,15 +18,15 @@
       <form>
         <fieldset class="length-filter-box">
           <legend>Choose the text length:</legend>
-          <input id="short" type="radio" name="text-length" value="short" class="length-filter-input">
+          <input id="short" type="button" name="text-length" value="short" class="length-filter-input">
           <label for="short" class="length-filter-label">short</label>
-          <input id="medium" type="radio" name="text-length" value="medium" class="length-filter-input">
+          <input id="medium" type="button" name="text-length" value="medium" class="length-filter-input">
           <label for="medium" class="length-filter-label">medium</label>
-          <input id="long" type="radio" name="text-length" value="long" class="length-filter-input">
+          <input id="long" type="button" name="text-length" value="long" class="length-filter-input">
           <label for="long" class="length-filter-label">long</label>
         </fieldset>
 
-        <button type="submit" class="btn-reload">
+        <button type="button" id="reloadButton" class="btn-reload">
           <span class="visually-hidden">Reload</span>
           <i aria-hidden="true" class="btn-icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M9 12l-4.463 4.969-4.537-4.969h3c0-4.97 4.03-9 9-9 2.395 0 4.565.942 6.179 2.468l-2.004 2.231c-1.081-1.05-2.553-1.699-4.175-1.699-3.309 0-6 2.691-6 6h3zm10.463-4.969l-4.463 4.969h3c0 3.309-2.691 6-6 6-1.623 0-3.094-.65-4.175-1.699l-2.004 2.231c1.613 1.526 3.784 2.468 6.179 2.468 4.97 0 9-4.03 9-9h3l-4.537-4.969z"/></svg>
@@ -35,7 +35,7 @@
       </form>
 
       <h2> Your generated text</h2>
-      <div class="output-box" role="region" aria-live="polite">
+      <div id="output" class="output-box" role="region" aria-live="polite">
         <%= @generated %>
       </div>
     </section>
@@ -46,3 +46,22 @@
     </p>
   </footer>
 </body>
+
+
+<script>
+  $('#reloadButton').click(function(){
+    jQuery("#output").load('/?text-length=short');
+  });
+
+  $('#short').click(function(){
+    jQuery("#output").load('/?text-length=short');
+  });
+
+  $('#medium').click(function(){
+    jQuery("#output").load('/?text-length=medium');
+  });
+
+  $('#long').click(function(){
+    jQuery("#output").load('/?text-length=long');
+  });
+</script>
