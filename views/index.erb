@@ -9,7 +9,7 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-P4QDSC');</script>
   <!-- End Google Tag Manager -->
-  
+
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>JS Ipsum - random JavaScript text generator</title>
@@ -24,11 +24,15 @@
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
+  <header>
+    <h1 class="header-title">JS Ipsum</h1>
+    <h2 class="header-subtitle"> Generate your own JS gibberish</h2>
+    <div class="header-image"></div>
+  </header>
+
   <div class="l-main-wrapper">
-    <h1>JS Ipsum</h1>
 
     <section>
-      <h2> Generate your own JS gibberish</h2>
       <form>
         <fieldset class="length-filter-box">
           <legend>Choose the text length:</legend>
@@ -48,7 +52,6 @@
         </button>
       </form>
 
-      <h2> Your generated text</h2>
       <div id="output" class="output-box" role="region" aria-live="polite">
         <%= @generated %>
       </div>

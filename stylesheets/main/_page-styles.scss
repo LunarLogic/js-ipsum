@@ -1,3 +1,13 @@
+.header-image {
+  height: 300px;
+  background: url("images/monsters.png") center top no-repeat;
+  background-size: auto 100%;
+}
+
+fieldset {
+  padding: 1rem 0 0;
+}
+
 .length-filter-box {
   display: inline-block;
   border: none;
@@ -22,7 +32,8 @@
 
 .length-filter-label {
   padding: .5em .75em;
-  border: 3px solid $main-accent;
+  border: 2px solid $main-accent;
+  color: $main-accent;
   font-weight: 400;
   cursor: pointer;
 
@@ -41,13 +52,17 @@
 
 .btn-reload {
   display: inline-block;
-  height: 1.75em;
+  vertical-align: sub;
+  padding: 0.4em 0 0;
+  height: 2.5em;
+  width: 2.5em;
   background: transparent;
   border: 1px solid transparent;
 
   &:focus,
   &:active {
     border: 1px solid $main-accent;
+    outline: 0;
   }
 }
 
@@ -56,7 +71,8 @@
 }
 
 .output-box {
-  padding: 2em;
+  margin: 1.5em 0 2em;
+  padding: 1.75em 2em;
   border: 1px solid;
   font-size: 1.25em;
   border-radius: $border-radius;

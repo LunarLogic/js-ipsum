@@ -35,6 +35,7 @@ h1,
 h2 {
   font-family: $font-primary;
   margin: 0;
+  text-align: center;
 }
 
 h1 {
@@ -45,4 +46,17 @@ h1 {
 h2 {
   @include font-sizes($h2-sizes);
   font-weight: 400;
+}
+
+a {
+  color: $main-accent;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:focus {
+    outline: 1px solid $main-accent;
+  }
 }
