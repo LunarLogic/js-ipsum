@@ -27,7 +27,6 @@ DOM is a platform- and language-neutral interface that allow programs and script
 ECMAScript (ES) is the standardized specification of the scripting language used by JavaScript.
 Electron is a framework based on Node.js lets you write cross-platform desktop applications using JS, HTML and CSS.
 Ember is an application framework based on the model-view-controller pattern.
-Enzyme is a JavaScript Testing utility for React developed by AirBnB that makes it easier to assert, manipulate, and traverse React components’ output..
 ESLint is a JavaScript code linter.
 Express is a fast, un-opinionated, minimalist web framework for Node.js.
 Ext JS is a pure JavaScript application framework for building interactive cross platform web applications.
