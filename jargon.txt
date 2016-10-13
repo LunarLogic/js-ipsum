@@ -13,7 +13,7 @@ Browserify is a tool making possible to use the `require` function from Node.js 
 Brunch is a tool focusing on the production of deployment-ready files from development files.
 Canvas is an HTML element for graphic applications in 2D or 3D.
 Chai is an assertion library used with a JavaScript testing framework.
-Chakra is a JavaScript engine developed by Microsoft for its Edge browser which could also be used with Node.js instead of V8..
+Chakra is a JavaScript engine developed by Microsoft for its Edge browser which could also be used with Node.js instead of V8.
 Closure is a way of referencing variables from a child function while retaining their value even if it changes in the parent function.
 Closure Compiler is a JavaScript checker and optimizer.
 Coffeescript is a language that compiles into JavaScript.
@@ -43,7 +43,7 @@ Hoisting is an action performed by the JavaScript interpreter that moves functio
 IIFE is a function that gets called immediately after declaration.
 Ionic is a HTML5 mobile framework to build beautiful hybrid native mobile applications using AngularJS and Cordova.
 Isomorphic is an application is said to be isomorphic (universal) when its code can run both in the client and the server.
-Jasmine is a testing framework for BDD (Behaviour-Driven Development).
+Jasmine is a testing framework for Behaviour-Driven Development.
 jQuery is a fast, small, and feature-rich client-side library.
 JSCS is a JavaScript code linter.
 JSHint is a JavaScript code linter.
@@ -55,12 +55,12 @@ JSX is an XML-like syntax extension to JavaScript.
 Knockout is a library that helps developers creating user interfaces with a clean underlying data model.
 LocalForage is a fast and simple storage library for JavaScript.
 Lodash is an utility toolkit to extend JavaScript primitive types.
-MEAN is the technology stack MongoDB, ExpressJS, AngularJS, and Node.js .
+MEAN is the technology stack MongoDB, ExpressJS, AngularJS, and Node.js.
 Mediator Pattern is an object that encapsulates how a set of objects interact.
 Memoize is an optimization used to speed up consecutive function calls by caching the result of calls with identical input.
 Metalsmith is a simple, pluggable static site generator.
 Meteor is a JavaScript web framework that allows rapid prototypic web development.
-Mocha is an extensible testing framework for TDD (Test-Driven Development) or BDD (Behaviour-Driven Development).
+Mocha is an extensible testing framework for Test-Driven Development.
 Modernizr is a browser feature detection library, useful to modify page styles when a feature is not available in the browser.
 Module Pattern is a design pattern used to implement the concept of software modules, defined by modular programming, in a programming language with incomplete direct support for the concept.
 Moment.js is a library to parse, validate, manipulate and display dates.
@@ -105,4 +105,4 @@ Webpack is a dependency manager with a friendly and fast development environment
 XHR is XMLHttpRequest is an API that provides client functionality for transferring data between a client and a server without page refresh.
 Yeoman is a generator builder to speed up the setup and installation process of a project or part of a project.
 Zepto is a lightweight jQuery clone, without all the browser-compatibility specific code.
-Simplified JavaScript Jargon (short SJSJ) is a community-driven attempt at explaining the loads of buzzwords making the current JavaScript ecosystem in a few simple words. The idea is not to replace individual documentations, but to act as some kind of glossary that can be easily referenced.
+SJSJ is a community-driven attempt at explaining the loads of buzzwords making the current JavaScript ecosystem in a few simple words. The idea is not to replace individual documentations, but to act as some kind of glossary that can be easily referenced.
