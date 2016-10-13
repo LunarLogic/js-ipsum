@@ -10,6 +10,16 @@
   }
 }
 
+.main-content {
+  position: relative;
+  padding: 0 0 2rem;
+
+  @media screen and (min-width: $small) {
+    padding: 0;
+    position: static;
+  }
+}
+
 fieldset {
   padding: 1rem 0 0;
 }
@@ -77,7 +87,7 @@ fieldset {
 }
 
 .output-box {
-  margin: 1.5em 0 1em;
+  margin: 1.5em 0 2em;
   padding: 1em 1.5em;
   border: 1px solid $main-accent;
   font-size: 1.1em;

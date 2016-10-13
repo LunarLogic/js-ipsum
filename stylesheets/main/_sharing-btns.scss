@@ -1,3 +1,16 @@
+.sharing-btns {
+  display: inline-block;
+  float: right;
+  position: absolute;
+  bottom: 1em;
+  right: 0;
+
+  @media screen and (min-width: $small) {
+    position: static;
+    margin-top: 2em;
+  }
+}
+
 .resp-sharing-button__link,
 .resp-sharing-button__icon {
   display: inline-block
@@ -6,7 +19,7 @@
 .resp-sharing-button__link {
   text-decoration: none;
   color: #fff;
-  margin: 0 0.5em 2em 0
+  margin: 0 0 0 0.5em;
 }
 
 .resp-sharing-button {
@@ -33,58 +46,58 @@
 }
 
 .resp-sharing-button--twitter {
-  background-color: #55acee
+  background-color: $main-accent
 }
 
 .resp-sharing-button--twitter:hover {
-  background-color: #2795e9
+  background-color: $main-accent-dark
 }
 
 .resp-sharing-button--pinterest {
-  background-color: #bd081c
+  background-color: $main-accent
 }
 
 .resp-sharing-button--pinterest:hover {
-  background-color: #8c0615
+  background-color: $main-accent-dark
 }
 
 .resp-sharing-button--facebook {
-  background-color: #3b5998
+  background-color: $main-accent
 }
 
 .resp-sharing-button--facebook:hover {
-  background-color: #2d4373
+  background-color: $main-accent-dark
 }
 
 .resp-sharing-button--facebook {
-  background-color: #3b5998;
-  border-color: #3b5998;
+  background-color: $main-accent;
+  border-color: $main-accent;
 }
 
 .resp-sharing-button--facebook:hover,
 .resp-sharing-button--facebook:active {
-  background-color: #2d4373;
-  border-color: #2d4373;
+  background-color: $main-accent-dark;
+  border-color: $main-accent-dark;
 }
 
 .resp-sharing-button--twitter {
-  background-color: #55acee;
-  border-color: #55acee;
+  background-color: $main-accent;
+  border-color: $main-accent;
 }
 
 .resp-sharing-button--twitter:hover,
 .resp-sharing-button--twitter:active {
-  background-color: #2795e9;
-  border-color: #2795e9;
+  background-color: $main-accent-dark;
+  border-color: $main-accent-dark;
 }
 
 .resp-sharing-button--pinterest {
-  background-color: #bd081c;
-  border-color: #bd081c;
+  background-color: $main-accent;
+  border-color: $main-accent;
 }
 
 .resp-sharing-button--pinterest:hover,
 .resp-sharing-button--pinterest:active {
-  background-color: #8c0615;
-  border-color: #8c0615;
+  background-color: $main-accent-dark;
+  border-color: $main-accent-dark;
 }
