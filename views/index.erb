@@ -60,12 +60,13 @@
         <button type="button" id="reloadButton" class="btn-reload">
           <span class="visually-hidden">Reload</span>
           <i aria-hidden="true" class="btn-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M9 12l-4.463 4.969-4.537-4.969h3c0-4.97 4.03-9 9-9 2.395 0 4.565.942 6.179 2.468l-2.004 2.231c-1.081-1.05-2.553-1.699-4.175-1.699-3.309 0-6 2.691-6 6h3zm10.463-4.969l-4.463 4.969h3c0 3.309-2.691 6-6 6-1.623 0-3.094-.65-4.175-1.699l-2.004 2.231c1.613 1.526 3.784 2.468 6.179 2.468 4.97 0 9-4.03 9-9h3l-4.537-4.969z"/></svg>
+            <svg id="reloadSVG" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M9 12l-4.463 4.969-4.537-4.969h3c0-4.97 4.03-9 9-9 2.395 0 4.565.942 6.179 2.468l-2.004 2.231c-1.081-1.05-2.553-1.699-4.175-1.699-3.309 0-6 2.691-6 6h3zm10.463-4.969l-4.463 4.969h3c0 3.309-2.691 6-6 6-1.623 0-3.094-.65-4.175-1.699l-2.004 2.231c1.613 1.526 3.784 2.468 6.179 2.468 4.97 0 9-4.03 9-9h3l-4.537-4.969z"/></svg>
           </i>
         </button>
         <div class="sharing-btns">
           <!-- Sharingbutton Facebook -->
-          <a class="resp-sharing-button__link" href="https://facebook.com/sharer/sharer.php?u=jsipsum.lunarlogic.io" target="_blank" aria-label="">
+<<<<<<< 00745cf14707b656e36d2dce5908fa7310c4eba0
+          <a class="resp-sharing-button__link" id="facebook-share" href="https://facebook.com/sharer/sharer.php?u=jsipsum.lunarlogic.io" target="_blank" aria-label="">
             <div class="resp-sharing-button resp-sharing-button--facebook resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
               <svg version="1.1" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
                   <g>
@@ -77,7 +78,7 @@
           </a>
 
           <!-- Sharingbutton Twitter -->
-          <a class="resp-sharing-button__link" href="https://twitter.com/intent/tweet/?text=JavaScript%20is%20everywhere%2C%20now%20put%20it%20in%20your%20mockups%20with%20JS%20Ipsum.%20%23JavaScript%20%40Lunar_Logic&amp;url=jsipsum.lunarlogic.io" target="_blank" aria-label="">
+          <a class="resp-sharing-button__link" id="twitter-share" href="https://twitter.com/intent/tweet/?text=JavaScript%20is%20everywhere%2C%20now%20put%20it%20in%20your%20mockups%20with%20JS%20Ipsum.%20%23JavaScript%20%40Lunar_Logic&amp;url=jsipsum.lunarlogic.io" target="_blank" aria-label="">
             <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
               <svg version="1.1" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
                   <g>
@@ -89,7 +90,7 @@
           </a>
 
           <!-- Sharingbutton Pinterest -->
-          <a class="resp-sharing-button__link" href="https://pinterest.com/pin/create/button/?url=jsipsum.lunarlogic.io&amp;media=jsipsum.lunarlogic.io&amp;summary=JS%20Ipsum%20-%20JavaScript%20is%20everywhere%2C%20now%20put%20it%20in%20your%20mockups." target="_blank" aria-label="">
+          <a class="resp-sharing-button__link" id="pintrest-share" href="https://pinterest.com/pin/create/button/?url=jsipsum.lunarlogic.io&amp;media=jsipsum.lunarlogic.io&amp;summary=JS%20Ipsum%20-%20JavaScript%20is%20everywhere%2C%20now%20put%20it%20in%20your%20mockups." target="_blank" aria-label="">
             <div class="resp-sharing-button resp-sharing-button--pinterest resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
               <svg version="1.1" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
                   <path d="M12.137,0.5C5.86,0.5,2.695,5,2.695,8.752c0,2.272,0.8 ,4.295,2.705,5.047c0.303,0.124,0.574,0.004,0.661-0.33 c0.062-0.231,0.206-0.816,0.271-1.061c0.088-0.331,0.055-0.446-0.19-0.736c-0.532-0.626-0.872-1.439-0.872-2.59 c0-3.339,2.498-6.328,6.505-6.328c3.548,0,5.497,2.168,5.497,5.063c0,3.809-1.687,7.024-4.189,7.024 c-1.382,0-2.416-1.142-2.085-2.545c0.397-1.675,1.167-3.479,1.167-4.688c0-1.081-0.58-1.983-1.782-1.983 c-1.413,0-2.548,1.461-2.548,3.42c0,1.247,0.422,2.09,0.422,2.09s-1.445,6.126-1.699,7.199c-0.505,2.137-0.076,4.756-0.04,5.02 c0.021,0.157,0.224,0.195,0.314,0.078c0.13-0.171,1.813-2.25,2.385-4.325c0.162-0.589,0.929-3.632,0.929-3.632 c0.459,0.876,1.801,1.646,3.228,1.646c4.247,0,7.128-3.871,7.128-9.053C20.5,4.15,17.182,0.5,12.137,0.5z"/>
@@ -107,7 +108,7 @@
   </div>
   <footer role="contentinfo">
     <p>
-      This is a <a href="http://www.lunarlogic.io/?utm_source=js-ipsum&utm_medium=project&utm_content=home#contact">Lunar Logic</a> project. <a href="http://www.lunarlogic.io/?utm_source=js-ipsum&utm_medium=project&utm_content=contact#contact">Hire us</a> to help build your React/Ruby app.
+      This is a <a href="http://www.lunarlogic.io/?utm_source=js-ipsum&utm_medium=projects#contact" id="lunar-home">Lunar Logic</a> project. <a href="http://www.lunarlogic.io/?utm_source=js-ipsum&utm_medium=projects&utm_content=contact#contact" id="lunar-contact">Hire us</a> to help build your React/Ruby app.
     </p>
   </footer>
 </body>
