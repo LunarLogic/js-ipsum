@@ -216,7 +216,7 @@ Parenscript Subset of Common Lisp to JS.
 Ralph Lisp-1 dialect that compiles to JavaScript, inspired by Dylan
 Oppo A JavaScripter’s lisp. Inspired by JavaScript, Clojure and CoffeeScript. Compiler built using Jison.
 LispyScript A JavaScript with Lispy syntax and Macros. ○
-Outlet A simple Lisp that supports CPS and in-browser stepping debugging, and other things. In development.
+Outlet A simple Lisp that supports CPS and in-browser stepping debugging, and other things.
 Hot Cocoa Lisp A Lisp-like language that compiles to JavaScript. ○
 Sibilant JavaScript with a lisp. ○
 jisp A JS-native and axiomatic Lisp that focuses on the core ideas of code-as-data, S-expressions, and macros, introducing as few new concepts as possible. ○
