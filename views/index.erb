@@ -115,18 +115,18 @@
 
 <script>
   $('#reloadButton').click(function(){
-    jQuery("#output").load('/?text-length=' + $('.length-filter-input:checked').val());
+    jQuery("#output").hide().load('/?text-length=' + $('.length-filter-input:checked').val()).fadeIn('750');
   });
 
   $('#short').click(function(){
-    jQuery("#output").load('/?text-length=short');
+    jQuery("#output").hide().load('/?text-length=short').fadeIn('750');
   });
 
   $('#medium').click(function(){
-    jQuery("#output").load('/?text-length=medium');
+    jQuery("#output").hide().load('/?text-length=medium').fadeIn('750');
   });
 
   $('#long').click(function(){
-    jQuery("#output").load('/?text-length=long');
+    jQuery("#output").hide().load('/?text-length=long').fadeIn('750');
   });
 </script>
