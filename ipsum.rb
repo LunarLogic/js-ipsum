@@ -25,7 +25,6 @@ get '/' do
   else 
     erb :index
   end
-  
 end
 
 get '/style.css' do
@@ -34,7 +33,7 @@ end
 
 
 def load_markov_dictionary
-  @markov = MarkyMarkov::Dictionary.new('dictionary')
+  @markov = MarkyMarkov::Dictionary.new('dictionary', 2)
   unless File.exist?('dictionary.mmd')
     @markov.parse_file "jargon.txt"
     @markov.parse_file "wiki.txt"

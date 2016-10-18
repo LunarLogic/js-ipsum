@@ -1,7 +1,4 @@
-set :application, "JS-IPSUM"
-server "jsipsum-demo.llp.pl", user: "lunar", roles: %w{web app db}, port: 20071
-set :port, 80
-set :branch, "master"
+set :application, "js-ipsum"
 
 set :repo_url, "git@github.com:LunarLogic/js-ipsum.git"
 set :deploy_via, :remote_cache
@@ -30,8 +27,8 @@ set :bundle_binstubs, -> { File.join(fetch(:bundle_path), "bin") }
 
 set :keep_releases, 5
 
-set :linked_files, %w{config/database.yml config/unicorn.rb}
-set :linked_dirs, %w{pids log public/assets}
+set :linked_files, %w{config/unicorn.rb}
+set :linked_dirs, %w{pids log}
 
 after "deploy:publishing", "unicorn:restart"
 after "deploy:finishing",  "deploy:cleanup"

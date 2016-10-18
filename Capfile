@@ -8,8 +8,6 @@ require "capistrano/deploy"
 require "capistrano/rvm"
 require "capistrano3/unicorn"
 require "capistrano/bundler"
-require "capistrano/rails"
-require "honeybadger/capistrano"
 
 
 # Include tasks from other gems included in your Gemfile
