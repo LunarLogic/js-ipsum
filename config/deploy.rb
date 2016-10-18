@@ -1,5 +1,4 @@
-set :application, "js-ipsum"
-set :gemset, "jsipsum"
+set :application, "jsipsum"
 
 set :repo_url, "git@github.com:LunarLogic/js-ipsum.git"
 set :deploy_via, :remote_cache
@@ -20,7 +19,7 @@ fetch(:default_env).merge!(rails_env: "production", rack_env: "production")
 set :ssh_options, { forward_agent: true }
 
 set :rvm_type, :system
-set :rvm_ruby_version, -> { "2.3.1@#{fetch(:gemset)}" }
+set :rvm_ruby_version, -> { "2.3.1@#{fetch(:application)}" }
 set :bundle_path, -> { File.join(fetch(:rvm_path), "gems/ruby-#{fetch(:rvm_ruby_version)}") }
 set :bundle_cmd, -> { File.join(fetch(:bundle_path), "bin/bundle") }
 
