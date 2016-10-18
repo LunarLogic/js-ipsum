@@ -1,6 +1,6 @@
 # set path to app that will be used to configure unicorn,
 # note the trailing slash in this example
-@dir = "/home/lunar/apps/jsipsum/shared/config"
+@dir = "/home/lunar/apps/jsipsum/releases"
 
 worker_processes 2
 working_directory @dir
