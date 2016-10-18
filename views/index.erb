@@ -17,7 +17,7 @@
 
   <meta property="og:title" content="JS Ipsum - Generate your own JS gibberish">
   <meta property="og:description" content="JavaScript is everywhere, now put it in your mockups.">
-  <meta property="og:image" content="http://jsipsum.lunarlogic.io/images/monsters-small.png">
+  <meta property="og:image" content="http://jsipsum.lunarlogic.io/images/javascript-lorem-ipsum-generator.jpg">
   <meta property="og:url" content="http://jsipsum.lunarlogic.io/">
   <meta name="twitter:card" content="summary_large_image">
 
@@ -25,8 +25,16 @@
   <meta name="twitter:image:alt" content="Generate Javascript Lorem Ipsum text with JS Ipsum">
   <meta name="twitter:site" content="@Lunar_Logic">
 
+  <link rel="apple-touch-icon" sizes="57x57" href="images/favicons/favicon-57.png">
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/favicons/favicon-57.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/favicon-72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/favicon-114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="images/favicons/favicon-120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="images/favicons/favicon-144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="images/favicons/favicon-152.png">
 
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <link rel="shortcut icon" href="images/favicons/favicon.ico">
+
   <link rel="stylesheet" href="/style.css"/>
 </head>
 
@@ -77,7 +85,7 @@
           </a>
 
           <!-- Sharingbutton Twitter -->
-          <a class="resp-sharing-button__link" id="twitter-share" href="https://twitter.com/intent/tweet/?text=JavaScript%20is%20everywhere%2C%20now%20put%20it%20in%20your%20mockups%20with%20JS%20Ipsum.%20%23JavaScript%20%40Lunar_Logic&amp;url=jsipsum.lunarlogic.io" target="_blank" aria-label="">
+          <a class="resp-sharing-button__link" id="twitter-share" href="https://twitter.com/intent/tweet/?text=JavaScript%20is%20everywhere%2C%20now%20put%20it%20in%20your%20mockups%20with%20JS%20Ipsum.%20%23JavaScript%20%40Lunar_Logic&amp;url=http%3A%2F%2Fjsipsum.lunarlogic.io" target="_blank" aria-label="">
             <div class="resp-sharing-button resp-sharing-button--twitter resp-sharing-button--small"><div aria-hidden="true" class="resp-sharing-button__icon resp-sharing-button__icon--solid">
               <svg version="1.1" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
                   <g>
@@ -112,7 +120,7 @@
   </footer>
 </body>
 
-
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script>
   $('#reloadButton').click(function(){
     jQuery("#output").hide().load('/?text-length=' + $('.length-filter-input:checked').val()).fadeIn('750');
