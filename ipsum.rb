@@ -22,6 +22,9 @@ class Ipsum < Sinatra::Base
 
     end
 
+    @generated=@generated.gsub(/\. [a-z]/, &:upcase) 
+    @generated=@generated.gsub(/^[a-z]/, &:upcase) 
+
     if request.xhr? then
       @generated 
     else 
