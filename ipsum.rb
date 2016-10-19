@@ -6,12 +6,11 @@ class Ipsum < Sinatra::Base
 
   get '/' do
     load_markov_dictionary
-    @text_length =  params[:"text-length"]
-    @text_length ||= "medium"
+    @text_length = params[:"text-length"] || "medium"
 
-    if @text_length == "short" then
+    if @text_length == "short"
       @generated = @markov.generate_n_sentences 5
-    elsif @text_length == "medium" then
+    elsif @text_length == "medium"
       @generated = @markov.generate_n_sentences 15
     else 
       @generated = @markov.generate_n_sentences 10
@@ -19,13 +18,12 @@ class Ipsum < Sinatra::Base
       @generated += @markov.generate_n_sentences 10
       @generated += "\n\n"
       @generated += @markov.generate_n_sentences 10
-
     end
 
-    @generated=@generated.gsub(/\. [a-z]/, &:upcase) 
-    @generated=@generated.gsub(/^[a-z]/, &:upcase) 
+    @generated.gsub!(/\. [a-z]/, &:upcase) 
+    @generated.gsub!(/^[a-z]/, &:upcase) 
 
-    if request.xhr? then
+    if request.xhr?
       @generated 
     else 
       erb :index
@@ -36,7 +34,6 @@ class Ipsum < Sinatra::Base
     scss :"../stylesheets/style"
   end
 
-
   def load_markov_dictionary
     @markov = MarkyMarkov::Dictionary.new('dictionary', 2)
     unless File.exist?('dictionary.mmd')
@@ -45,5 +42,4 @@ class Ipsum < Sinatra::Base
       @markov.save_dictionary! # Saves the modified dictionary/creates one if it didn't exist.
     end
   end
-
 end
