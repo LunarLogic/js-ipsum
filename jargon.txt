@@ -69,8 +69,8 @@ MooTools is a collection of JavaScript utilities designed for the intermediate t
 Nightmare is a high-level browser automation library.
 NightwatchJS is a framework for browser automated testing.
 Node.js is a cross-platform runtime environment for developing server-side applications built on V8 engine.
-npm is a utility to help publishing packages to, and installing from, an npm repository.
-nvm is a utility to help run multiple versions of Node.js on the same machine.
+Npm is a utility to help publishing packages to, and installing from, an npm repository.
+Nvm is a utility to help run multiple versions of Node.js on the same machine.
 Observer Pattern is a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods.
 Passport.js is a simple authentication middleware.
 PhantomJS is a scripted, headless browser used for automating web page interaction.
@@ -86,8 +86,8 @@ Ramda is a practical functional library for JavaScript programmers.
 React is a library developed and used at Facebook for building user interfaces.
 Redux is a predictable state container for apps.
 RequireJS is a browser based module loader using AMD.
-Revealing Module Pattern is a design pattern conceptually based on the Module Pattern. The only difference is that the *revealing module pattern* was engineered as a way to ensure that all methods and variables are kept private until they are explicitly exposed.
-rnpm is a package manager to ease React Native development.
+Revealing Module Pattern is a design pattern conceptually based on the Module Pattern. The only difference is that the revealing module pattern was engineered as a way to ensure that all methods and variables are kept private until they are explicitly exposed.
+Rnpm is a package manager to ease React Native development.
 RxJS is a library for asynchronous programming using observable streams.
 Sails is a realtime MVC Framework for Node.js.
 Singleton Pattern is a design pattern that restricts the instantiation of a class to one object.

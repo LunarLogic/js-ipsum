@@ -4,8 +4,8 @@ gem 'sinatra'
 
 gem 'sprockets'
 gem 'sass'
-gem 'marky_markov'
 gem 'pry'
+gem 'marky_markov', :git => 'git://github.com/Mart00cha/marky_markov.git'
 
 group :development do
   gem "capistrano", "~> 3.3"

@@ -20,9 +20,6 @@ class Ipsum < Sinatra::Base
       @generated += @markov.generate_n_sentences 10
     end
 
-    @generated.gsub!(/\. [a-z]/, &:upcase) 
-    @generated.gsub!(/^[a-z]/, &:upcase) 
-
     if request.xhr?
       @generated 
     else 
@@ -35,7 +32,7 @@ class Ipsum < Sinatra::Base
   end
 
   def load_markov_dictionary
-    @markov = MarkyMarkov::Dictionary.new('dictionary', 2)
+    @markov = MarkyMarkov::Dictionary.new('dictionary', 1)
     unless File.exist?('dictionary.mmd')
       @markov.parse_file "jargon.txt"
       @markov.parse_file "wiki.txt"
