@@ -10,16 +10,14 @@ gem 'sass'
 # sentence generator
 gem 'marky_markov', github: 'Mart00cha/marky_markov'
 
-# enable copy to clipboard
-gem 'clipboard'
-gem 'ffi', :platforms => [:mswin, :mingw]
-
 # running the application
 gem 'unicorn'
 
+# debugging
+gem "pry"
+
 group :development do
-  # debugging
-  gem "pry"
+
 
   # automatic deployment to server
   gem "capistrano", "~> 3.3"
