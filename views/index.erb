@@ -71,6 +71,10 @@
             <svg id="reloadSVG" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M9 12l-4.463 4.969-4.537-4.969h3c0-4.97 4.03-9 9-9 2.395 0 4.565.942 6.179 2.468l-2.004 2.231c-1.081-1.05-2.553-1.699-4.175-1.699-3.309 0-6 2.691-6 6h3zm10.463-4.969l-4.463 4.969h3c0 3.309-2.691 6-6 6-1.623 0-3.094-.65-4.175-1.699l-2.004 2.231c1.613 1.526 3.784 2.468 6.179 2.468 4.97 0 9-4.03 9-9h3l-4.537-4.969z"/></svg>
           </i>
         </button>
+        <button type="button" id="copyButton" data-clipboard-text= "<%= @generated %>" class="btn-default">
+          Copy
+        </button>
+
         <div class="sharing-btns">
           <!-- Sharingbutton Facebook -->
           <a class="resp-sharing-button__link" id="facebook-share" href="https://facebook.com/sharer/sharer.php?u=jsipsum.lunarlogic.io" target="_blank" aria-label="">
@@ -112,20 +116,37 @@
 </body>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="javascripts/clipboard.js/dist/clipboard.min.js"></script>
 <script>
+  new Clipboard('#copyButton');
+
+
   $('#reloadButton').click(function(){
-    jQuery("#output").hide().load('/?text-length=' + $('.length-filter-input:checked').val()).fadeIn('750');
+    generate_text($('.length-filter-input:checked').val());
   });
 
   $('#short').click(function(){
-    jQuery("#output").hide().load('/?text-length=short').fadeIn('750');
+    generate_text("short");
   });
 
   $('#medium').click(function(){
-    jQuery("#output").hide().load('/?text-length=medium').fadeIn('750');
+    generate_text("medium");
   });
 
   $('#long').click(function(){
-    jQuery("#output").hide().load('/?text-length=long').fadeIn('750');
+    generate_text("long");
   });
+
+  function generate_text(len){
+    $("#output").hide()
+    jQuery.ajax({
+        url: '/?text-length=' + len,
+        success: function (result) {
+            $("#copyButton").attr("data-clipboard-text", result);
+            $("#output").text(result);
+            $("#output").fadeIn('750');
+        },
+        async: false
+    });
+  }
 </script>
