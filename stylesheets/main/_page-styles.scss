@@ -66,10 +66,9 @@ fieldset {
   }
 }
 
-.btn-reload {
+.btn-icon {
   display: inline-block;
   vertical-align: sub;
-  padding: 0.4em 0 0;
   height: 2.5em;
   width: 2.5em;
   background: transparent;
@@ -82,8 +81,14 @@ fieldset {
   }
 }
 
-.btn-icon {
+.btn-icon-inner {
+  position: relative;
   fill: $main-accent;
+}
+
+.btn-icon-symbol {
+  position: relative;
+  top: .25em;
 }
 
 .output-box {

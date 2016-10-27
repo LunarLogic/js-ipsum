@@ -72,14 +72,17 @@
           <label for="long" class="length-filter-label">long</label>
         </fieldset>
 
-        <button type="button" id="reloadButton" class="btn-reload">
+        <button type="button" id="reloadButton" class="btn-icon" title="reload">
           <span class="visually-hidden">Reload</span>
-          <i aria-hidden="true" class="btn-icon">
-            <svg id="reloadSVG" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M9 12l-4.463 4.969-4.537-4.969h3c0-4.97 4.03-9 9-9 2.395 0 4.565.942 6.179 2.468l-2.004 2.231c-1.081-1.05-2.553-1.699-4.175-1.699-3.309 0-6 2.691-6 6h3zm10.463-4.969l-4.463 4.969h3c0 3.309-2.691 6-6 6-1.623 0-3.094-.65-4.175-1.699l-2.004 2.231c1.613 1.526 3.784 2.468 6.179 2.468 4.97 0 9-4.03 9-9h3l-4.537-4.969z"/></svg>
+          <i aria-hidden="true" class="btn-icon-inner">
+            <svg id="reloadSVG" class="btn-icon-symbol" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M9 12l-4.463 4.969-4.537-4.969h3c0-4.97 4.03-9 9-9 2.395 0 4.565.942 6.179 2.468l-2.004 2.231c-1.081-1.05-2.553-1.699-4.175-1.699-3.309 0-6 2.691-6 6h3zm10.463-4.969l-4.463 4.969h3c0 3.309-2.691 6-6 6-1.623 0-3.094-.65-4.175-1.699l-2.004 2.231c1.613 1.526 3.784 2.468 6.179 2.468 4.97 0 9-4.03 9-9h3l-4.537-4.969z"/></svg>
           </i>
         </button>
-        <button type="button" id="copyButton" data-clipboard-text= "<%= @generated %>" class="btn-default">
-          Copy
+        <button type="button" id="copyButton" data-clipboard-text= "<%= @generated %>" class="btn-icon" title="copy to clipboard">
+          <span class="visually-hidden">Copy</span>
+          <i aria-hidden="true" class="btn-icon-inner">
+            <svg id="copySVG" class="btn-icon-symbol" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M15.143 13.244l.837-2.244 2.698 5.641-5.678 2.502.805-2.23s-8.055-3.538-7.708-10.913c2.715 5.938 9.046 7.244 9.046 7.244zm8.857-7.244v18h-18v-6h-6v-18h18v6h6zm-2 2h-12.112c-.562-.578-1.08-1.243-1.521-2h7.633v-4h-14v14h4v-3.124c.6.961 1.287 1.823 2 2.576v6.548h14v-14z"/></svg>
+          </i>
         </button>
 
         <div class="sharing-btns">
