@@ -111,6 +111,10 @@
           </a>
 
         </div>
+      <div id="notification" style="display: none;">
+        <span class="dismiss"><a title="dismiss this notification">x</a></span>
+        <span id="notification_text"></span>
+      </div>
       </form>
       <div id="output" class="output-box" role="region" aria-live="polite"><%= @generated %>
       </div>
@@ -128,8 +132,7 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="javascripts/clipboard.js/dist/clipboard.min.js"></script>
 <script>
-  new Clipboard('#copyButton');
-
+  var clipboard = new Clipboard('#copyButton');
 
   $('#reloadButton').click(function(){
     generate_text($('.length-filter-input:checked').val());
@@ -159,4 +162,15 @@
         async: false
     });
   }
+
+  clipboard.on('success', function() {
+    $("#notification").fadeIn("slow");
+    $("#notification_text").html('Gibberish copied to clipboard!');
+
+  });
+
+
+  $(".dismiss").click(function(){
+         $("#notification").fadeOut("slow");
+  });
 </script>
