@@ -12,11 +12,10 @@
 
 .main-content {
   position: relative;
-  padding: 0 0 2rem;
+  padding: 0 0 1.5rem;
 
   @media screen and (min-width: $small) {
     padding: 0;
-    position: static;
   }
 }
 
@@ -103,6 +102,13 @@ fieldset {
     padding: 1.75em 2em;
     font-size: 1.25em;
   }
+}
+
+#notification {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
 }
 
 /* Octocat styles https://github.com/tholman/github-corners */

@@ -111,7 +111,7 @@
           </a>
 
         </div>
-      <div id="notification" style="display: none;">
+      <div id="notification">
       </div>
       </form>
       <div id="output" class="output-box" role="region" aria-live="polite"><%= @generated %>
@@ -162,15 +162,10 @@
   }
 
   clipboard.on('success', function() {
-    $("#notification").fadeIn("slow").html('Gibberish copied to clipboard!');
+    $("#notification").hide().fadeIn("fast").html('Gibberish copied to clipboard!');
     setTimeout(function() {
-      $("#notification").fadeOut("slow");
-    }, 3000 );
+      $("#notification").fadeOut("fast");
+    }, 1500 );
 
-  });
-
-
-  $(".dismiss").click(function(){
-         $("#notification").fadeOut("slow");
   });
 </script>
