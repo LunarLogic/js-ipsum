@@ -21,7 +21,7 @@ group :development do
 
   # automatic deployment to server
   gem "capistrano", "~> 3.3"
-  gem "capistrano-rvm"
+  gem "capistrano-rbenv"
   gem "capistrano-bundler"
   gem "capistrano3-unicorn"
 end
