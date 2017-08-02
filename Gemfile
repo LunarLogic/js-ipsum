@@ -8,7 +8,7 @@ gem 'sprockets'
 gem 'sass'
 
 # sentence generator
-gem 'marky_markov', github: 'Mart00cha/marky_markov'
+gem 'marky_markov'
 
 # debugging
 gem "pry"
