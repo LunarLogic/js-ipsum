@@ -1,4 +1,3 @@
-require 'sinatra'
 require 'marky_markov'
 require 'pry' #testing purposes
 
