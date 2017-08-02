@@ -10,9 +10,6 @@ gem 'sass'
 # sentence generator
 gem 'marky_markov', github: 'Mart00cha/marky_markov'
 
-# running the application
-gem 'unicorn'
-
 # debugging
 gem "pry"
 
