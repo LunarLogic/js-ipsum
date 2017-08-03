@@ -5,7 +5,7 @@ require "capistrano/setup"
 require "capistrano/deploy"
 
 
-require "capistrano/rvm"
+require 'capistrano/rbenv'
 require "capistrano3/unicorn"
 require "capistrano/bundler"
 
