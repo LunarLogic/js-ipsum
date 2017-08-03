@@ -128,50 +128,50 @@
       This is a <a href="http://www.lunarlogic.io/?utm_source=js-ipsum&utm_medium=projects" id="lunar-home">Lunar Logic</a> project. <a href="http://www.lunarlogic.io/?utm_source=js-ipsum&utm_medium=projects&utm_content=contact#contact" id="lunar-contact">Hire us</a> to help build your React/Rails app.
     </p>
   </footer>
-</body>
 
-<script src="javascripts/clipboard.js/dist/clipboard.min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="javascripts/clipboard.js/dist/clipboard.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 
-<script>
-  var clipboard = new Clipboard('#copyButton');
+  <script>
+    var clipboard = new Clipboard('#copyButton');
 
-  $('#reloadButton').click(function(){
-    generate_text($('.length-filter-input:checked').val());
-  });
-
-  $('#short').click(function(){
-    generate_text("short");
-  });
-
-  $('#medium').click(function(){
-    generate_text("medium");
-  });
-
-  $('#long').click(function(){
-    generate_text("long");
-  });
-
-  function generate_text(len){
-    $("#output").hide()
-    jQuery.ajax({
-        url: '/?text-length=' + len,
-        success: function (result) {
-            $("#copyButton").attr("data-clipboard-text", result);
-            $("#output").text(result);
-            $("#output").fadeIn('750');
-        },
-        async: false
+    $('#reloadButton').click(function(){
+      generate_text($('.length-filter-input:checked').val());
     });
-  }
 
-  clipboard.on('success', function() {
-    $("#notification").hide().fadeIn("fast").html('Gibberish copied to clipboard!');
-    setTimeout(function() {
-      $("#notification").fadeOut("fast");
-    }, 1500 );
+    $('#short').click(function(){
+      generate_text("short");
+    });
 
-  });
-</script>
+    $('#medium').click(function(){
+      generate_text("medium");
+    });
 
+    $('#long').click(function(){
+      generate_text("long");
+    });
+
+    function generate_text(len){
+      $("#output").hide()
+      jQuery.ajax({
+          url: '/?text-length=' + len,
+          success: function (result) {
+              $("#copyButton").attr("data-clipboard-text", result);
+              $("#output").text(result);
+              $("#output").fadeIn('750');
+          },
+          async: false
+      });
+    }
+
+    clipboard.on('success', function() {
+      $("#notification").hide().fadeIn("fast").html('Gibberish copied to clipboard!');
+      setTimeout(function() {
+        $("#notification").fadeOut("fast");
+      }, 1500 );
+
+    });
+  </script>
+
+</body>
 </html>
