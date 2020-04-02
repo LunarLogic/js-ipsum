@@ -21,6 +21,7 @@ GEM
     coderay (1.1.1)
     concurrent-ruby (1.1.5)
     i18n (0.7.0)
+    kgio (2.11.3)
     marky_markov (0.3.5)
       msgpack
     method_source (0.8.2)
@@ -35,6 +36,7 @@ GEM
     rack (1.6.12)
     rack-protection (1.5.5)
       rack
+    raindrops (0.19.1)
     rake (13.0.1)
     sass (3.4.22)
     sinatra (1.4.7)
@@ -49,6 +51,9 @@ GEM
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
     tilt (2.0.5)
+    unicorn (5.5.4)
+      kgio (~> 2.6)
+      raindrops (~> 0.7)
 
 PLATFORMS
   ruby
@@ -63,6 +68,7 @@ DEPENDENCIES
   sass
   sinatra
   sprockets
+  unicorn
 
 BUNDLED WITH
    1.17.3
